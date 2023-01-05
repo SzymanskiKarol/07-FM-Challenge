@@ -112,16 +112,15 @@ p {
 button {
     background-color: var(--Very-light-gray);
     font-weight: 700;
+    outline: none;
     margin-top: 35%;
     /* margin-right: 35%; */
-    max-width: 100px;
     border-radius: 30px;
     padding: 10px 25px;
     cursor: pointer;
     border: solid 2px;
     white-space: nowrap;
-    line-height: 1;
-    text-align: center;
+    align-self: flex-start;
 }
 
 img {
